@@ -22,7 +22,7 @@ class ProductManager {
         if (prod) {
             console.log(prod)
         } else {
-            console.log("Producto no existe")
+            console.log("Not found")
         }
 
     }
@@ -61,4 +61,4 @@ productManager.addProduct(producto3)
 
 productManager.getProducts()
 
-productManager.getProductById(2)
+productManager.getProductById(1)
